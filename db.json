@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "id": 1,
+    "name": "Mike PDF Test",
+    "user": 1
+  },
+  "controls": [
+    { "input": "first", "value": "mike", "percent": "50", "id": 1, "user": 1 },
+    { "input": "last", "value": "meloy", "percent": "50", "id": 2, "user": 1 },
+    {
+      "input": "insurance",
+      "value": "12345",
+      "percent": "75",
+      "id": 3,
+      "user": 1
+    }
+  ]
+}

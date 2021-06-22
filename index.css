@@ -1,0 +1,45 @@
+:root {
+  --primary: rgb(76, 63, 150);
+  --main-background: rgb(32, 33, 36);
+  --black: #000;
+  --white: #fff;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-background);
+}
+pre {
+  position: absolute;
+  background-color: var(--black);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: var(--white);
+  bottom: 0;
+  right: 0;
+}
+button {
+  border: none;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 0.2rem;
+  position: relative;
+  top: 10px;
+  right: 90px;
+}
+main {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--main-background);
+  box-shadow: 0 0 75px var(--black);
+}
+.control {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+}
